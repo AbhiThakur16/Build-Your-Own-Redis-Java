@@ -1,0 +1,24 @@
+# Java compiled files
+*.class
+
+# Redis runtime data
+*.bin
+*.aof
+
+# Replication metadata
+replication-meta-*.properties
+
+# Sentinel runtime files
+sentinel-events.log
+sentinel-state.properties
+
+# IDE files
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Old stage backups
+backup-stage24/
